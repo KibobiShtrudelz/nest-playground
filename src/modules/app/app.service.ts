@@ -20,7 +20,8 @@ export class AppService {
     return delay(1500).then(() => {
       return {
         id: 'partsutsa-uuid-ne-aidi-ti',
-        email
+        email,
+        password
       }
     })
   }
